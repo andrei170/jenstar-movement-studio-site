@@ -857,7 +857,8 @@ section { padding: 110px 0; position: relative; }
 .mod-photo {
   width: 100%;
   height: 200px;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--dark-2);
   display: block;
   filter: saturate(0.8) brightness(0.9);
   transition: filter 0.4s, transform 0.4s;
@@ -930,8 +931,7 @@ section { padding: 110px 0; position: relative; }
 
 .schedule-photo {
   width: 100%;
-  height: 280px;
-  object-fit: cover;
+  height: auto;
   border-radius: 4px;
   margin-bottom: 40px;
   box-shadow: var(--shadow-card);
@@ -1036,8 +1036,7 @@ section { padding: 110px 0; position: relative; }
 
 .retreats-photo {
   width: 100%;
-  height: 260px;
-  object-fit: cover;
+  height: auto;
   border-radius: 4px;
   margin-bottom: 28px;
   box-shadow: var(--shadow-deep);
